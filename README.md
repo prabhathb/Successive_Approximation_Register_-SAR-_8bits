@@ -1,5 +1,7 @@
 This is a very basic design of an eight bit successive approximation register type analog to digitla converter which is commonly used in low and mid range microcontrollers.
 
+The SAR type ADC is popularly known as a hardware implementation of the binary search algorithm.
+
 The design is done using the behavioural modelling based on a Mealy state machine. The following states are included to implement the 8 bit SAR in 10 clock cycles.
 
   01. s_init: Starting State. Clears the 'Done' bit and sets the DAC register to the default value ob b'10000000'.
